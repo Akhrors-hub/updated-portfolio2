@@ -192,10 +192,14 @@ nav {
 }
 
 .nav-toggle {
-    padding: .25em;
-    /* background: transparent; */
-    position: relative;
+
+    background: var(--clr-light);
     color: var(--clr-accent);
+    text-decoration: none;
+    cursor: pointer;
+
+    padding: 20px;
+    transition: transform 200ms ease-in-out;
 }
 
 
@@ -208,8 +212,36 @@ nav {
 
 
 
+.nav-toggle:hover {
+    transform: scale(1.1);
+}
 
 
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+
+
+.logo-screen {
+    background: var(--clr-light);
+    color: var(--clr-accent);
+    text-decoration: none;
+    cursor: pointer;
+
+    padding: 20px;
+    transition: transform 200ms ease-in-out;
+}
+
+.logo-screen:hover {
+    transform: scale(1.1);
+}
+
+
+.nav-toggle,
+.logo-screen {
+    transform: rotate(.625turn);
+}
 
 
 
