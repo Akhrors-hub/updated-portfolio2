@@ -207,6 +207,7 @@ nav {
     /* background-color: #16a0bd; */
     transform: translateX(0);
 
+
 }
 
 
@@ -218,7 +219,7 @@ nav {
 
 
 .nav-open .nav-toggle {
-    position: fixed;
+    /* position: fixed; */
 }
 
 
